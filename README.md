@@ -52,7 +52,7 @@ chmod +x Arma3Helper.sh
 ## Usage
 
 ### GUI
-You should have a shortcut in your application called 'Teamspeak 3 (ArmA3)'.
+You should have a shortcut in your applications called 'Teamspeak 3 (ArmA3)'.
 
 
 ![image](https://github.com/user-attachments/assets/18834ba3-a8cd-4480-9e8d-ef0b68d021c6)
