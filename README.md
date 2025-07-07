@@ -74,7 +74,7 @@ If the gui shortcut is not present you can always launch teamspeak 3
 - Make sure both Steam and Protontricks are native packages (not Flatpak)
 - Check that TeamSpeak was installed "for all users" in the default location
 - Use `./Arma3Helper.sh debug` to view configuration and paths
-- If using custom installation or steam library location, make sure to edit the Arma3Helper.sh script with a text editor to change the relative paths 'PROTON_OFFICIAL_VERSION', '
+- If using custom installation or steam library location, make sure to edit the Arma3Helper.sh script with a text editor to change the relative paths 'COMPAT_DATA_PATH', 'STEAM_LIBRARY_PATH'
 
 ## License
 

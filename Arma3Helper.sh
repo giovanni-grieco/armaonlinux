@@ -19,10 +19,6 @@ COMPAT_DATA_PATH=""
 # Leave empty if Proton is installed in Steams default library
 STEAM_LIBRARY_PATH=""
 
-# If you are using a custom proton build, then put its folder name (from inside compatibilitytools.d) here
-# Leave empty if proton 
-PROTON_CUSTOM_VERSION=""
-
 ## Esync/Fsync
 # IMPORTANT: Make sure that Esync and Fsync settings MATCH for both Arma and TeamSpeak(here)
 # If you havent explicitly turned it off for Arma, leave it on here!
@@ -153,22 +149,14 @@ elif [[ $1 = "debug" ]]; then
 	echo "DEBUGGING INFORMATION"
 	echo
 	echo "Script Version: $_SCRIPTVER"
-	_UPVER=$(curl -s https://raw.githubusercontent.com/ninelore/armaonlinux/master/version)
+	_UPVER=$(curl -s https://raw.githubusercontent.com/giovanni-grieco/armaonlinux/master/version)
 	if [[ $_SCRIPTVER != "$_UPVER" ]]; then
 		echo -e "\e[31mScript Version $_UPVER is available!\e[0m"
-		echo "https://github.com/ninelore/armaonlinux"
+		echo "https://github.com/giovanni-grieco/armaonlinux"
 	fi
 	echo
 	echo "Command Line:"
 	echo "sh -c \"$PROTONEXEC $TSPATH\""
-	echo
-	if [[ -n "$PROTON_CUSTOM_VERSION" ]]; then
-		echo "Proton: custom $PROTON_CUSTOM_VERSION"
-	elif [[ $IS_EXPERIMENTAL == true ]]; then
-		echo "Proton: official Experimental"
-	else
-		echo "Proton: official $PROTON_OFFICIAL_VERSION"
-	fi
 	echo
 	echo "Enviromental Variables"
 	echo "STEAM_COMPAT_DATA_PATH: $STEAM_COMPAT_DATA_PATH"
