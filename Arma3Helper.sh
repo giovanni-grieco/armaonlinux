@@ -36,18 +36,6 @@ if  [ -n "$_" ]; then
 	exit
 fi
 
-# Check if $XDG_CONFIG_HOME exists, then read external config if it exists
-if [[ -n "$XDG_CONFIG_HOME" ]]; then
-	USERCONFIG="$XDG_CONFIG_HOME/arma3helper"
-else
-	USERCONFIG="$HOME/.config/arma3helper"
-fi
-if [[ -e "$USERCONFIG/config" ]]; then
-	echo "Config file $USERCONFIG/config found. Using its values."
-	# shellcheck source=/dev/null
-	source "$USERCONFIG/config"
-fi
-
 ## FUNCTIONS
 # Installed check ($1 = path; $2 = name in error msg)
 _checkinstall() {
