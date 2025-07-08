@@ -13,7 +13,7 @@ The core concept behind this script is to install teamspeak 3 under the same arm
 - **ArmA 3** installed via Steam
 - **TeamSpeak 3 installer** (.exe file)
 
-## Installation
+## Download Helper Script
 
 ### Option 1: Git Clone
 ```bash
@@ -33,7 +33,7 @@ chmod +x Arma3Helper.sh
 2. Click the "Download raw file" button (top right)
 3. Make it executable: `chmod +x Arma3Helper.sh`
 
-## Setup Instructions
+## Install Teamspeak3 under the ArmA3 Proton prefix
 
 1. **Install and launch ArmA 3** through Steam at least once
 2. **Download TeamSpeak 3** installer from the [official website](https://www.teamspeak.com/en/downloads/#ts3client)
