@@ -49,7 +49,7 @@ chmod +x Arma3Helper.sh
    ```
    Or use the application shortcut created in your applications menu.
 
-## Usage
+## Run Teamspeak3 under ArmA3 Proton prefix
 
 ### GUI
 You should have a shortcut in your applications called 'Teamspeak 3 (ArmA3)'.
