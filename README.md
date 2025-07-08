@@ -64,7 +64,7 @@ If the gui shortcut is not present you can always launch teamspeak 3
 ```bash
 ./Arma3Helper.sh
 ```
-⚠️ **Note**: Start ArmA 3 first, then launch TeamSpeak!
+⚠️ **Note**: It's better to start ArmA 3 first, then launch TeamSpeak!
 
 ### Additional Commands
 
