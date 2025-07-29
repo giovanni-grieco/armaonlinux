@@ -13,11 +13,7 @@ _SCRIPTVER="2v00-1"
 
 ## Path to Arma's compatdata (wineprefix)
 # Leave empty if Arma is installed in Steams default library
-COMPAT_DATA_PATH=""
-
-# If you have proton in a different steam library, then put the path to its steamapps folder here
-# Leave empty if Proton is installed in Steams default library
-STEAM_LIBRARY_PATH=""
+COMPAT_DATA_PATH="/mnt/shared_ssd/SteamLibrary/steamapps/compatdata/107410"
 
 ## Esync/Fsync
 # IMPORTANT: Make sure that Esync and Fsync settings MATCH for both Arma and TeamSpeak(here)
